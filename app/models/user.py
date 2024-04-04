@@ -3,7 +3,7 @@ from . import db
 
 class UserModel(db.Model):
 
-    __tablename__ = 'users'
+    __tablename__ = 'user'
 
     username = db.Column(
         db.String, primary_key=True,
